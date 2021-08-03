@@ -17,16 +17,18 @@ body {
 }
 
 header h1 {
+  font-weight: 700;
   text-align: center;
   margin: 0;
   font-size: 3em;
 }
 
 table {
+  border-collapse: separate;
   text-align: center;
   font-size: 1.5em;
   width: 100%;
-  margin: 0;
+  margin-top: 10px;
   padding: 3px;
   border-spacing: 0;
   background-color: #c9ada7;
@@ -34,12 +36,18 @@ table {
   border: 1px solid #a18c87;
   box-shadow: 0 30px 100px 2px #c9ada7;
 }
+table th {
+  font-weight: 700;
+  font-size: 1em;
+}
 .table .head-field,
 .data-field {
   border: 3px solid #a18c87;
+  padding: 5px 0;
 }
 .data-field {
   border-top: none;
+  font-size: 1.25rem;
 }
 .table .head-field-left {
   border-top-left-radius: 10px;
