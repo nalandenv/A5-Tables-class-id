@@ -1,0 +1,21 @@
+/* Import font from Google fonts */
+@import url(https://fonts.googleapis.com/css?family=Istok+Web:regular,italic,700,700italic);
+
+/* Initialized font style and set base font size */
+body {
+  font-family: "Istok Web";
+  font-size: 1em;
+}
+
+/* Set container size and style */
+.container {
+  width: 70%;
+  background-color: aqua;
+  margin: 0 auto;
+  padding: 0;
+}
+
+header h1 {
+  margin: 0;
+  padding: 0;
+}
