@@ -5,17 +5,57 @@
 body {
   font-family: "Istok Web";
   font-size: 1em;
+  background-color: #f2e9e4;
+  color: #22223b;
 }
 
 /* Set container size and style */
 .container {
   width: 70%;
-  background-color: aqua;
   margin: 0 auto;
   padding: 0;
 }
 
 header h1 {
+  text-align: center;
   margin: 0;
-  padding: 0;
+  font-size: 3em;
+}
+
+table {
+  text-align: center;
+  font-size: 1.5em;
+  width: 100%;
+  margin: 0;
+  padding: 3px;
+  border-spacing: 0;
+  background-color: #c9ada7;
+  border-radius: 10px;
+  border: 1px solid #a18c87;
+  box-shadow: 0 30px 100px 2px #c9ada7;
+}
+.table .head-field,
+.data-field {
+  border: 3px solid #a18c87;
+}
+.data-field {
+  border-top: none;
+}
+.table .head-field-left {
+  border-top-left-radius: 10px;
+  border: 3px solid #a18c87;
+}
+.table .head-field-right {
+  border-top-right-radius: 10px;
+  border: 3px solid #a18c87;
+}
+.table .data-field-left {
+  border-bottom-left-radius: 10px;
+  border: 3px solid #a18c87;
+  border-top: none;
+}
+.table .data-field-right {
+  border-bottom-right-radius: 10px;
+  border: 3px solid #a18c87;
+  border-top: none;
 }
